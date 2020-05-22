@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!-- This website was made by Francisco Morais as a trainee project 
 for studying proposes in 22/05/2020. This website is about a fictitious
-travel company known as "Partiu". The big part of the website was build using Materialize framework.-->
+travel company known as "Partiu". The entire website was build using Materialize framework.-->
 
 <html>
 	<head>
@@ -47,6 +47,7 @@ travel company known as "Partiu". The big part of the website was build using Ma
 	  			</nav>
   			</div>
 
+  			<!--Sidenav for small devices-->
   			<ul class="sidenav" id="mobile-demo">
   				<li><a class="sidenav-close" href="#home">Home</a></li>
         		<li><a class="sidenav-close" href="#ofertas">Pacotes</a></li>
@@ -60,7 +61,7 @@ travel company known as "Partiu". The big part of the website was build using Ma
   		<main>
 
   			<!-- Main title -->
-			<div id="home" class="start col s12 center">
+			<div id="home" class="start scrollspy col s12 center">
   				<div class="white">
   					<h3>Partiu viajar?</h3>
   					<p>Com poucos clicks você consegue a viagem dos seus sonhos!</p>
@@ -74,8 +75,8 @@ travel company known as "Partiu". The big part of the website was build using Ma
 	    	</div>
 
 	    	<!--Email section-->
-	  		<div class="planner row center">
-				<div id="ofertas" class="col l6 s12">
+	  		<div class="email row center">
+				<div id="ofertas" class="scrollspy col l6 s12">
 					<h4>Receba nossas ofertas no seu email</h4>
 					<p> Preencha o formulário para ficar por dentro de todas as ofertas!</p>
 					<p>Leva menos de 1 minuto :)</p>
@@ -113,8 +114,8 @@ travel company known as "Partiu". The big part of the website was build using Ma
 	      		</div>
 	    	</div>
 
-	    	<!-- Map sections -->
-			<div id="hotel" class="row center">
+	    	<!-- GoogleMap section -->
+			<div id="hotel" class="row center scrollspy">
 				<div class="col l12 s12 white">
 					<h3>Os melhores hotéis na sua mão</h3>
 					<p>Cada hotel selecionado para sua melhor experiência</p>
@@ -131,7 +132,7 @@ travel company known as "Partiu". The big part of the website was build using Ma
 	    	</div>
 
 	    	<!--Feedback section -->
-	    	<div id="review" class="feedback row center">
+	    	<div id="review" class="feedback row center scrollspy">
 				<div class="col l12 s12 white">
 					<h3>Veja o feedback dos nossos clientes</h3>
 					<p>Nossos clientes confiam no nosso serviço de olhos fechados</p>
@@ -179,7 +180,6 @@ travel company known as "Partiu". The big part of the website was build using Ma
 					</div>
 					<div class="row">
 						<div class="carousel carousel-slider col l12 s12">
-   							<a class="carousel-item"><img src="img/aqui.jpeg"></a>
    							<a class="carousel-item"><img src="img/family2.jpg"></a>
    							<a class="carousel-item"><img src="img/family3.jpg"></a>
    							<a class="carousel-item"><img src="img/family4.jpg"></a>
@@ -204,7 +204,7 @@ travel company known as "Partiu". The big part of the website was build using Ma
 	    <footer class="page-footer black">
 
 			<!-- About section -->         		
-          	<div id="about" class="container">
+          	<div id="about" class="container scrollspy">
             	<div class="row">
             		<div class="col l6 s12">
                			<h5 class="white-text">Sobre nós</h5>
@@ -227,10 +227,9 @@ travel company known as "Partiu". The big part of the website was build using Ma
           	</div>
           	
           	<div class="footer-copyright">
-            	<div class="container">
-            		© 2020 Francisco Morais
-        		</div>
+            	<div class="container">© 2020 Francisco Morais</div>
         	</div>
+
         </footer>
 
 		<!-- JQuery and JS import -->
@@ -242,6 +241,7 @@ travel company known as "Partiu". The big part of the website was build using Ma
 			$(document).ready(function(){
 				$('.sidenav').sidenav();
 				$('.parallax').parallax();
+				$('.scrollspy').scrollSpy();
 			});
 
 			$('.carousel.carousel-slider').carousel({
