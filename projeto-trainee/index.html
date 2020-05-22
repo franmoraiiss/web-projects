@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+<!-- This website was made by Francisco Morais as a trainee project 
+for studying proposes in 22/05/2020. This website is about a fictitious
+travel company known as "Partiu". The big part of the website was build using Materialize framework.-->
 
 <html>
 	<head>
@@ -12,6 +15,7 @@
 		<!-- Google Icon -->
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
+		<!-- Page icon -->
 		<link rel="icon" type="image/x-icon" href="img/web-icon.ico">
 
 		<title>Partiu</title>
@@ -55,6 +59,7 @@
 
   		<main>
 
+  			<!-- Main title -->
 			<div id="home" class="start col s12 center">
   				<div class="white">
   					<h3>Partiu viajar?</h3>
@@ -68,6 +73,7 @@
 	      		</div>
 	    	</div>
 
+	    	<!--Email section-->
 	  		<div class="planner row center">
 				<div id="ofertas" class="col l6 s12">
 					<h4>Receba nossas ofertas no seu email</h4>
@@ -107,6 +113,7 @@
 	      		</div>
 	    	</div>
 
+	    	<!-- Map sections -->
 			<div id="hotel" class="row center">
 				<div class="col l12 s12 white">
 					<h3>Os melhores hotéis na sua mão</h3>
@@ -123,6 +130,7 @@
 	      		</div>
 	    	</div>
 
+	    	<!--Feedback section -->
 	    	<div id="review" class="feedback row center">
 				<div class="col l12 s12 white">
 					<h3>Veja o feedback dos nossos clientes</h3>
@@ -141,7 +149,7 @@
 					        	<div class="card-content">
 					          		<p>"Sem dúvidas, essa foi uma experiência singular! Eu e minha família
 					          		curtimos demais e sem preocupação pois a Partiu cuidou de tudo para nós" - 
-					          	Rodrigo Valesco, Fernando de Noronha</p>
+					          		Rodrigo Valesco, Fernando de Noronha</p>
 					        	</div>
 					    	</div>
 						</div>
@@ -163,6 +171,8 @@
 						</div>
 					</div>
 				</div>
+
+				<!-- Carousel section -->
 				<div class="col l12 s12">
 					<div class="col s12 s12 moments row">
 							<h4>Veja alguns momentos marcantes de nosso clientes!</h4>
@@ -179,11 +189,12 @@
 				</div>
 			</div>
 
+			<!-- Last section -->
 			<div class="row center">
 				<div class="col l12 s12">
 					<h5>Está esperando o que? Chegou a sua vez!</h5>
 					<p>Vá curtir suas férias ao lado de sua família no conforto que só a
-					partiu proporciona para você. Entre em contato e fique por dentro
+					Partiu proporciona para você. Entre em contato e fique por dentro
 					de todas as ofertas!</p>
 				</div>
 			</div>
@@ -191,14 +202,14 @@
 	    </main>
 
 	    <footer class="page-footer black">
-          		
+
+			<!-- About section -->         		
           	<div id="about" class="container">
             	<div class="row">
             		<div class="col l6 s12">
                			<h5 class="white-text">Sobre nós</h5>
                			<p class="white-text">Nossa empresa nasceu o desejo de melhorar a qualidade e trazer inovações
-               			para o setor de viagens. Desde sua fundação em 2018, mais de 300 mil clientes por ano utilizam
-               			a plataforma!</p>
+               			para o setor de viagens.</p>
             		</div>
             		<div class="col l4 offset-l2 s12">
                 		<h5 class="white-text">Contato</h5>
@@ -222,9 +233,7 @@
         	</div>
         </footer>
 
-
-
-		<!-- JQuery and JS scripts -->
+		<!-- JQuery and JS import -->
 		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>		
 
@@ -240,9 +249,10 @@
     			indicators: true
   			});
 
+			//Carousel image changes after 3 seconds
  			setInterval(function() {
-    				$('.carousel').carousel('next');
-  				}, 3000);
+    			$('.carousel').carousel('next');
+  			}, 3000);
 
 		</script>
 
