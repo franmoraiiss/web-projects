@@ -1,0 +1,75 @@
+html {
+	overflow-x: hidden;
+}
+
+nav ul a, nav .brand-logo {
+  color: black;
+}
+
+.start {
+	padding: 1rem;
+}
+
+.parallax {
+	height: 15rem;
+	width: auto;
+}
+
+.planner {
+	padding: 1rem;
+}
+
+.map {
+	padding: 1rem;
+	width: 280px;
+	height: 400px;
+}
+
+.feedback {
+	padding: 1rem;
+}
+
+.carousel {
+	max-height: 17rem;
+}
+
+.moments {
+	padding: 0 2rem;
+}
+
+@media screen and (min-width: 720px) {
+
+.carousel {
+	max-height: 40rem;
+}
+
+.map {
+	padding: 2rem;
+	width: 580px;
+	height: 400px;
+}
+
+.feedbackcard {
+	padding: 0 2rem;
+}
+
+}
+
+@media screen and (min-width: 1024px) {
+
+.carousel {
+	height: 40rem;
+}
+
+.map {
+	padding: 2rem;
+	width: 980px;
+	height: 500px;
+}
+
+.feedbackcard {
+	padding: 0 3rem;
+}
+
+}
+
