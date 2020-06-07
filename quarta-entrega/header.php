@@ -31,11 +31,20 @@
 
                     <ul id="nav-mobile" class="right">
                         <li><a href="sass.html" class="black-text">Pacotes</a></li>
+                        <li><a href="sass.html" class="black-text">Contato</a></li>
                     </ul>  
+
+                    <a href="" class="sidenav-trigger" data-target="mobile-links"><i class="material-icons black-text">menu</i></a>
+
                 </div>                
 
             </nav>    
         </div>
+
+        <ul class="sidenav" id="mobile-links">
+            <li><a href="sass.html" class="black-text">Pacotes</a></li>
+            <li><a href="sass.html" class="black-text">Contato</a></li>
+        </ul>
 
     </header>
 
@@ -48,4 +57,10 @@
     </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>		
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $('.sidenav').sidenav();
+        })
+    </script>
