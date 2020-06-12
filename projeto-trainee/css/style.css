@@ -1,0 +1,84 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	overflow-x: hidden;
+}
+
+/*-Navbar*/
+nav ul a, nav .brand-logo {
+  	color: black;
+}
+
+/*Main title*/
+.start {
+	padding: 1rem;
+}
+
+.parallax {
+	height: 15rem;
+	width: auto;
+}
+
+.email {
+	padding: 1rem;
+}
+
+.map {
+	padding: 1rem;
+	width: 280px;
+	height: 400px;
+}
+
+.feedback {
+	padding: 1rem;
+}
+
+.carousel {
+	max-height: 17rem;
+}
+
+/* Carousel text */
+.moments {
+	padding: 0 2rem;
+}
+
+/* ==Medium devices - iPad and tablets==*/
+@media screen and (min-width: 720px) {
+
+.carousel {
+	max-height: 40rem;
+}
+
+.map {
+	padding: 2rem;
+	width: 580px;
+	height: 400px;
+}
+
+.feedbackcard {
+	padding: 0 2rem;
+}
+
+}
+
+/*==Large devices - iMac and PC==*/
+@media screen and (min-width: 1024px) {
+
+.carousel {
+	height: 40rem;
+}
+
+.map {
+	padding: 2rem;
+	width: 980px;
+	height: 500px;
+}
+
+.feedbackcard {
+	padding: 0 3rem;
+}
+
+}
