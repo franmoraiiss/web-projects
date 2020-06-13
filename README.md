@@ -18,11 +18,11 @@
   
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/franmoraiiss/web-projects">
   
-  <a href="https://github.com/EliasGcf/readme-template/commits/master">
+  <a href="https://github.com/franmoraiiss/web-projects/commits/master">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/franmoraiiss/web-projects">
   </a>
   
-  <a href="https://github.com/EliasGcf/readme-template/issues">
+  <a href="https://github.com/franmoraiiss/web-projects/issues">
     <img alt="Repository issues" src="https://img.shields.io/github/issues/franmoraiiss/web-projects">
   </a>
   
@@ -32,7 +32,7 @@
 <p align="center">
   <a href="#-about-the-project">About the project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-getting-started">Getting started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-how-to-contribute">How to contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-how-to-contribute">How to contribute</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
 
 ## 👨🏻‍💻 About the project
