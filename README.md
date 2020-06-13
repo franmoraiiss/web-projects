@@ -35,11 +35,11 @@
   <a href="#-how-to-contribute">How to contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
-## 👨🏻‍💻 - About the project
+## 👨🏻‍💻 About the project
 
 - <p style="color: red;">It's a simple repository for studying HTML, CSS and web technologies.</p>
 
-## 💻 - Getting started
+## 💻 Getting started
 
 **Clone the project and access the folder**
 
@@ -47,7 +47,7 @@
 $ git clone https://github.com/franmoraiiss/web-projects.git && cd web-projects
 ```
 
-## 🤔 - How to contribute
+## 🤔 How to contribute
 
 **Make a fork of this repository**
 
@@ -78,7 +78,7 @@ After your pull request is merged, you can delete your branch
 
 ---
 
-✍️ - **Authors**
+✍️ **Authors**
 
 - <p>Francisco Morais</p>
 Thanks for your visit! Have a nice day :)
