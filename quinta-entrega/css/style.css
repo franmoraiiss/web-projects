@@ -1,0 +1,57 @@
+/* 
+Theme Name: Wordpress
+Theme URI: http:/localhost/wordpress
+Description: Site for course
+Author: Francisco Morais
+Author URI: http:/localhost/wordpress
+Version: 1.0
+*/
+
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+       background: url(assets/images/bg-header.jpg) center, top;
+}
+
+.header .info {
+    padding: 15rem 0;
+    margin: 0 auto;
+    width: 800px;
+    text-align: center;
+}
+
+.header .info h2{
+    color: #fff;
+    font-size: 30px;    
+}
+
+.header .info p {
+    color: #fff;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.custom-button {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #60d3b1;
+    color: #fff;
+    border-radius: 20px;
+    margin: 0 auto;
+    width: 339px;
+}
+
+.wrap {
+    margin: 0 auto;
+    width: 960px;
+}
+
+img {
+    height: 720px;
+}
